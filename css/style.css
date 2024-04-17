@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    
 }
 
+/*header + nav*/
 header {
     background-color: white;
     width: 100%; 
@@ -16,6 +16,7 @@ header {
 
 .nav {
     text-align: center;
+    margin-top: 0;
 }
 
 .nav a {
@@ -30,10 +31,7 @@ header {
 }
 
 
-
-
-
-/* estilo do formulario*/
+/*formulario*/
 #contact{
     text-align: center;
   }
@@ -68,3 +66,34 @@ label {
     font-weight: 400;
 }
 
+
+/*alinhamento*/
+.column-left{
+  width: 30%;
+  margin: 0 10%;
+  font-family: 'Lato', sans-serif;
+  color: rgb(53, 53, 53);
+}    
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  height: 311px;
+  width: 661px;
+  margin: 8px 8px;
+  width: 100%;
+  height: auto;
+  
+} 
+
+#contact form input,
+#contact form textarea {
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+}
